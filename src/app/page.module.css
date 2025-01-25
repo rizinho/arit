@@ -1,0 +1,108 @@
+.main{
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+}
+
+.mainContent{
+   padding-top: 100px;
+   display: flex;
+}
+
+.iptContent{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    gap: 60px;
+}
+
+.input{
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 5px;
+    width: 200px;
+}
+
+.btnContent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    position: absolute;        /* Posiciona de forma absoluta na tela */
+    top: 60%;                  /* Coloca o topo no meio da tela */
+    left: 18%;                 /* Coloca a esquerda no meio da tela */
+    justify-content: center;   /* Centraliza os botões horizontalmente */
+    align-items: center;       /* Centraliza os botões verticalmente */
+}
+
+.btnA{
+    background-color: green;
+    box-shadow: 3px 5px 10px rgb(206, 196, 196);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btnA:hover{
+    background-color: rgb(2, 71, 2);
+    color: white;
+}
+
+.btnS{
+    background-color: chocolate;
+    box-shadow: 3px 5px 10px rgb(206, 196, 196);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btnS:hover{
+    background-color: rgb(136, 66, 17);
+    color: white;
+}
+
+.btnM{
+    background-color: blueviolet;
+    box-shadow: 3px 5px 10px rgb(206, 196, 196);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btnM:hover{
+    background-color: rgb(86, 25, 142);
+    color: white;
+}
+
+.btnD{
+    background-color: crimson;
+    box-shadow: 3px 5px 10px rgb(206, 196, 196);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btnD:hover{
+    background-color: rgb(140, 11, 37);
+    color: white;
+}
