@@ -71,13 +71,13 @@
     }
 
     .btnNav{
-        width:40px;
-        font-size: 10px;
+        width:50px;
+        font-size: 14px;
     }
     
     .btnNavLog{
-        width: 50px;
-        font-size: 10px;
+        width: 70px;
+        font-size: 14px;
     }
     
 }

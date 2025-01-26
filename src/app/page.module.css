@@ -114,9 +114,6 @@
     }
 
     .iptContent{
-        background-color: aquamarine;
-        top: 20%;
-        left: 8%;
         gap: 20px;
     }
 
@@ -133,13 +130,9 @@
     }
 
     .btnContent{
-        background-color: aqua;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 30px;
-        position: absolute;        /* Posiciona de forma absoluta na tela */
-        top: 40%;                  /* Coloca o topo no meio da tela */
-        left: 8%;                 /* Coloca a esquerda no meio da tela */
         justify-content: center;   /* Centraliza os botões horizontalmente */
         align-items: center;       /* Centraliza os botões verticalmente */
     }
