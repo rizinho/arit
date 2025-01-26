@@ -42,7 +42,7 @@ export default function Home () {
                    placeholder='Primeiro numero'
                    type="number"
             />
-            <h1>= {result}</h1>
+            <h1 className={styles.res}>= {result}</h1>
           </div>
         {/* <h1>Selecione o tipo de Conta deseja fazer:</h1> */}
 

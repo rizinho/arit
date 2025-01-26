@@ -9,7 +9,8 @@ export default function Header () {
     <div className={styles.main}>
 
       <div className={styles.logoContent}>
-        <Image src='/logoAri.png' 
+        <Image className={styles.logo}
+               src='/logoAri.png' 
                width={80} height={80}
                alt="Logo do Site"
         />
