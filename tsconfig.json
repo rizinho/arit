@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Header/page.js", "src/app/page.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Header/page.js", "src/app/page.tsx", "src/app/cakeCenoura/page.js"],
   "exclude": ["node_modules"]
 }
