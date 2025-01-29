@@ -1,195 +1,48 @@
 .main{
-    background-color: white;
-    margin: 0;
-    padding: 0;
+    background-color: rgb(195, 188, 183);
     height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mainContent{
-   padding-top: 100px;
-   display: flex;
-}
-
-.iptContent{
-    display: flex;
-    position: absolute;
-    top: 40%;
-    left: 18%;
-    gap: 60px;
-}
-
-.input{
-    border-radius: 10px;
-    border: 2px solid gray;
-    padding: 5px;
-    width: 200px;
-}
-
-.btnContent{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
-    position: absolute;        /* Posiciona de forma absoluta na tela */
-    top: 60%;                  /* Coloca o topo no meio da tela */
-    left: 18%;                 /* Coloca a esquerda no meio da tela */
-    justify-content: center;   /* Centraliza os botões horizontalmente */
-    align-items: center;       /* Centraliza os botões verticalmente */
-}
-
-.btnA{
-    background-color: green;
-    box-shadow: 3px 5px 10px rgb(206, 196, 196);
+    background-color: #e8e8e8;
+    padding: 20px;
+    width: 400px;
+    height: 500px;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding: 5px;
-    width: 200px;
-    height: 60px;
-    font-size: 30px;
-    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.btnA:hover{
-    background-color: rgb(2, 71, 2);
-    color: white;
-}
-
-.btnS{
-    background-color: chocolate;
-    box-shadow: 3px 5px 10px rgb(206, 196, 196);
-    border-radius: 10px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 5px;
-    width: 200px;
-    height: 60px;
-    font-size: 30px;
-    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.btnS:hover{
-    background-color: rgb(136, 66, 17);
-    color: white;
 }
 
-.btnM{
-    background-color: blueviolet;
-    box-shadow: 3px 5px 10px rgb(206, 196, 196);
+.cakesList{
+    background-color: gray;
+    width: 350px;
+    height: 400px;
     border-radius: 10px;
+    padding: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    width: 200px;
-    height: 60px;
-    font-size: 30px;
-    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.btnM:hover{
-    background-color: rgb(86, 25, 142);
-    color: white;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.btnD{
-    background-color: crimson;
-    box-shadow: 3px 5px 10px rgb(206, 196, 196);
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    width: 200px;
-    height: 60px;
-    font-size: 30px;
-    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.btnD:hover{
-    background-color: rgb(140, 11, 37);
-    color: white;
+.button{
+    background-color: rgb(60, 60, 60);
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
 }
 
-@media screen and (max-width:768px){
-    .mainContent{
-        padding-top: 70px;
-    }
+.button:active{
 
-    .iptContent{
-        gap: 20px;
-    }
-
-    .input{
-        border: 2px solid gray;
-        padding: 5px;
-        height: 50px;
-        width: 100px;
-        font-size: 15px;
-    }
-
-    .res{
-        font-size: 15px;
-    }
-
-    .btnContent{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        justify-content: center;   /* Centraliza os botões horizontalmente */
-        align-items: center;       /* Centraliza os botões verticalmente */
-    }
-    
-    .btnA{
-        background-color: green;
-        box-shadow: 3px 5px 10px rgb(206, 196, 196);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-        width: 100px;
-        height: 60px;
-        font-size: 15px;
-        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    
-    .btnS{
-        background-color: chocolate;
-        box-shadow: 3px 5px 10px rgb(206, 196, 196);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-        width: 100px;
-        height: 60px;
-        font-size: 15px;
-        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    
-    .btnM{
-        background-color: blueviolet;
-        box-shadow: 3px 5px 10px rgb(206, 196, 196);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-        width: 100px;
-        height: 60px;
-        font-size: 15px;
-        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    
-    .btnD{
-        background-color: crimson;
-        box-shadow: 3px 5px 10px rgb(206, 196, 196);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 5px;
-        width: 100px;
-        height: 60px;
-        font-size: 15px;
-        font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
+    background-color: #1a1a1a;
+    color: #da4906;
 }
