@@ -25,14 +25,17 @@ body {
 h1{
   font-size: xx-large;
   font-weight: bolder;
+  color: black;
 }
 
 h2{
   font-size: x-large;
   font-weight: bolder;
+  color: black;
 }
 
 h3{
   font-size: large;
   font-weight: bolder;
+  color: black;
 }

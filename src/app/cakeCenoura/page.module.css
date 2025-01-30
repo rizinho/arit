@@ -1,6 +1,8 @@
 .main{
-    background-color: rgb(201, 134, 33);
-    height: 100dvh;
+    background-color: rgb(215, 210, 220);
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +10,7 @@
 
 .mainContent{
     background-color: #fff;
+    box-shadow: -15px 15px 10px rgba(179, 179, 179, 0.3);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -65,5 +68,37 @@
 .recContent{
     display: flex;
     width: 100%;
+    height: auto;
     padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titleContent{
+    color: aqua;
+}
+
+.ingredientesContent{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.ingredientes{
+    display: flex;
+    list-style: upper-roman;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.ingredientes li{
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.ingredientesContent h3{
+    margin: 10px 0;
 }

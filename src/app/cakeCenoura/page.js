@@ -40,16 +40,54 @@ export default function CakeCenoura() {
            </header>
 
            <div className={styles.recContent}>
-            <h2>Ingredientes</h2>
+            <div className={styles.titleContent}>
+             <h2>Ingredientes</h2>
+            </div>
 
-            <input
-          type="radio"
-          name="opcao"
-          value="opcao1"
-          checked={selecionado === "opcao1"}
-          onClick={() => handleClick("opcao1")}
-          readOnly
-        />Farinha
+            <div className={styles.ingredientesContent}>
+
+            <h3>Massa:</h3>
+
+              <ol className={styles.ingredientes}>
+                <li>
+                  <p>1/2 xícara (chá) de óleo</p>
+                </li>
+                <li>
+                  <p>4 ovos</p>
+                </li>
+                <li>
+                  <p>2 e 1/2 xícaras (chá) de farinha de trigo</p>
+                </li>
+                <li>
+                  <p>3 cenouras médias raladas</p>
+                </li>
+                <li>
+                  <p>2 xícaras (chá) de açúcar</p>
+                </li>
+                <li>
+                  <p>1 colher (sopa) de fermento em pó</p>
+                </li>
+              </ol>
+
+              <h3>Calda:</h3>
+
+              <ol className={styles.ingredientes}>
+                <li>
+                  <p>1 colher (sopa) de manteiga</p>
+                </li>
+                <li>
+                  <p>1 xícara (chá) de açúcar</p>
+                </li>
+                <li>
+                  <p>3 colheres (sopa) de chocolate em pó</p>
+                </li>
+                <li>
+                  <p>1 xícara (chá) de leite</p>
+                </li>
+              </ol>
+
+            </div>
+
            </div>
 
          </div>
