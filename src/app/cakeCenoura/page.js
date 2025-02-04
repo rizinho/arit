@@ -1,17 +1,6 @@
-"use client";
-import { useState } from "react";
 import styles from '@/app/cakeCenoura/page.module.css'
 
 export default function CakeCenoura() {
-
-    const [selecionado, setSelecionado] = useState("");
-    const handleClick = (valor) => {
-      if(selecionado === valor) {
-        setSelecionado("")
-      } else {
-        setSelecionado(valor)
-      }
-    }
     return(
         <div className={styles.main}>
          <div className={styles.mainContent}>
@@ -89,6 +78,13 @@ export default function CakeCenoura() {
             </div>
 
            </div>
+
+            <div className={styles.imgContent}>
+              <img src='/boloDeCenoura.jpg'/>
+              <div className={styles.overlayImg}>
+                Agora aproveite a receita com a Familia😊🍰
+              </div>
+            </div>
 
          </div>
         </div>

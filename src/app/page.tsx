@@ -6,7 +6,7 @@ export default function Home() {
     return(
         <div className={styles.main}>
          <div className={styles.mainContent}>
-            <h1 className='text-black'>Bolos:</h1>
+            <h1>Bolos:</h1>
 
             <div className={styles.cakesList}>
                 <Link href='./cakeCenoura' className={styles.button}>- Bolo de Cenoura</Link>
