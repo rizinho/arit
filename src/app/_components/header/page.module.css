@@ -1,0 +1,19 @@
+.header{
+    background-color: rgb(234, 153, 4);
+    width: 100%;
+    height: 250px;
+}
+
+.logoBox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoBox > img{
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+}

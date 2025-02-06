@@ -1,0 +1,47 @@
+.cakesList{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 166, 0);
+    border-radius: 20px;
+    border: 1px solid black;
+    color: #fff;
+    padding: 10px;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+
+    transition: transform 0.5s;
+    animation: slideRight 1s
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+.button:active{
+    transform: scale(1);
+    background-color: #1a1a1a;
+    color: #da4906;
+
+}
+
+.iconBtn{
+    width: 50px;
+    height: 50px;
+}
+ @keyframes slideRight {
+    0%{ transform: translateX(-20%); 
+        opacity: 0;
+    }
+ }

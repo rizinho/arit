@@ -39,7 +39,7 @@
     font-size: 38px;
     font-weight: 900;
     background: linear-gradient(-20deg, yellow, red );
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .part1 p{
